@@ -1,49 +1,55 @@
-# Sign Language Recognition
-The model developed can classify any letter in the American Sign Language (ASL) alphabet into the equivalent letter in the English Alphabet, which is a multiclass classification problem.
+# Sign Language Recognition System
 
-Using this model, we can easily convert the ASL into the respective English sentences.
+![Project Image](./images/project_image.png)
 
-You can view the deployed version of the model [here](https://sathwick-reddy-m-sign-language-to-text-web-app-6j4rww.streamlitapp.com/)
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
 
-For a detailed explaination please refer [this](https://towardsdatascience.com/sign-language-to-text-using-deep-learning-7f9c8018c593) article
+## Introduction
+The Sign Language Recognition System is a project developed to recognize and interpret sign language gestures in real-time. It utilizes computer vision and machine learning techniques to analyze hand gestures and convert them into text or spoken language. The system aims to provide a seamless communication experience for individuals who use sign language as their primary means of communication.
 
-## Model Characterstics
-### Input
-A grayscale ASL letter image of shape (28X28)
-### Output 
-Equivalent letter in the English alphabet corresponding to the ASL input image
+## Features
+- Real-time sign language gesture recognition
+- Conversion of gestures into visible text or spoken language
+- User-friendly web-based interface for interaction
+- High accuracy and robustness in gesture classification
+- Support for multiple sign languages
 
-**Note**: The letters J and Z cannot be predicted as their corresponding representation in ASL requires motion.
-### Evaluation
-Accuracy is used as the evaluation metric
-### Architecture
-![CNN](./model.png)
+## Installation
+1. Clone the repository: `git clone https://github.com/your-username/sign-language-recognition.git`
+2. Install the required dependencies: `pip install -r requirements.txt`
 
-## Workflow
-1. Importing the necessary libraries
-2. Preprocessing the input data
-3. Defining the Model
-4. Fitting the training data
-5. Hyper Parameter Tuning
-6. Selection of the best model
-7. Testing the performance on the test set
+## Usage
+1. Open the terminal and navigate to the project directory.
+2. Run the application: `python app.py`
+3. Access the web interface by opening the browser and entering `http://localhost:5000` in the address bar.
+4. Follow the on-screen instructions to perform sign language gestures and see the recognition results.
 
-## Best Model After Hyperparameter Tuning
-`models/experiment-dropout-0`
+## Technologies
+- Python
+- TensorFlow
+- OpenCV
+- Keras
+- Flask
+- NumPy
+- HTML
+- CSS
+- JavaScript
 
-Tuned Hyperparmeters include
-1. Convolution and Max Pooling Pairs
-2. Filters in the convolution layers
-3. Filter Size
-4. Dropout
+## Contributing
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Commit your changes
+5. Push the branch
+6. Open a pull request
 
-
-Hyperparameters that can be further considered
-
-1. Batch Normalization - It normalizes the layer inputs
-2. Deeper networks work well - Replacing the single convolution layer of filter size (5X5) with two successive consecutive convolution layers of filter size (3X3)
-3. Number of units in the dense layer and number of dense layers
-4. Replacing the MaxPooling Layer with a convolution layer having a stride > 1
-5. Optimizers
-6. Learning rate of the optimizer
-7. Data Augmentation
+## License
+This project is licensed under the [SKIT License](LICENSE).

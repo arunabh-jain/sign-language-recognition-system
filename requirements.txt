@@ -1,6 +1,3 @@
-scikit-learn
 tensorflow
-streamlit
-numpy
-pandas
-pillow
+opencv-python
+Flask
