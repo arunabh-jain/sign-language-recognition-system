@@ -52,4 +52,4 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 6. Open a pull request
 
 ## License
-This project is licensed under the [SKIT License](LICENSE).
+This project is licensed under the SKIT Major Project 2023.
