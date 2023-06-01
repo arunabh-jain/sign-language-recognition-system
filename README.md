@@ -1,6 +1,6 @@
 # Sign Language Recognition System
 
-![Project Image](./images/project_image.png)
+![Project Image](https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/06/all-symbols.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
