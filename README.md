@@ -22,12 +22,12 @@ The Sign Language Recognition System is a project developed to recognize and int
 - Support for multiple sign languages
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your-username/sign-language-recognition.git`
+1. Clone the repository: `git clone https://github.com/arunabh-jain/sign-language-recognition.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 
 ## Usage
 1. Open the terminal and navigate to the project directory.
-2. Run the application: `python app.py`
+2. Run the application: `flask run`
 3. Access the web interface by opening the browser and entering `http://localhost:5000` in the address bar.
 4. Follow the on-screen instructions to perform sign language gestures and see the recognition results.
 
